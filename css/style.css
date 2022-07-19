@@ -20,6 +20,8 @@
     width: 50vw;
     height: 50vh;
     display: none;
+    position: relative;
+    color: white;
 }
 
 .img-slide{
@@ -64,4 +66,18 @@
 
 .show{
     display: block;
+}
+
+
+.description{
+    position: absolute;
+    top: 30px;
+    font-size: small;
+    text-align: right;
+}
+
+
+.title{
+    position: absolute;
+    right: 10px;
 }

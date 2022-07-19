@@ -38,7 +38,9 @@ const itemsDom = document.querySelector('.items');
 
 for (let i = 0; i < imagesList.length; i++) {
     itemsDom.innerHTML += ` <div class="item">
-                                <img class="img-slide" url="${imagesList[i]}"/>
+                                <h2 class="title">${imagesList[i].title}</h2>
+                                <p class="description">${imagesList[i].description}</p>
+                                <img class="img-slide" src="${imagesList[i].url}"/>
                             </div>`;
 }
 
